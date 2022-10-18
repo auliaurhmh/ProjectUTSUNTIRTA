@@ -1,0 +1,231 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+    <style>
+        body {
+            background-color: rgb(255, 255, 255);
+
+        }
+
+    </style>
+    <style>
+        body{
+            max-width: 1000px;
+            margin: auto;
+        }
+        p{
+            text-indent: 50px;
+        }
+    </style>
+    <body>
+		<br>
+        <br>
+        <br>
+        <br>
+        <h1 style="background-color: rgb(70, 195, 245);"><center>MATERI 2 (Sistem Pertidaksamaan Linear Dua Variabel)</center></h1>
+        
+
+            <br>
+	<center><img src="/static/image/5328226108_beae840931_c.jpg"></center>
+	<br>
+	<br>
+	<center><em>Gambar 3. Cover Materi Sistem Pertidaksamaan Linear Dua Variabel</em>
+	<p>Sumber : https://webmatika.com/wp-content/uploads/2020/05/5328226108_beae840931_c.jpg</p></center>
+	<strong>Kata Kunci : </strong>
+	<ul>
+		<li>Sistem Pertidaksamaan Linear Dua Variabel</li>
+		<li>Variabel</li>
+		<li>Penyelesaian</li>
+	</ul>
+	<br>
+    <br>
+	<h3><center>Peta Konsep</center></h3>
+	<br>
+	<center><img src="/static/image/Screenshot (1041).png"></center>
+	<br>
+
+	<h3>2.1	Sistem Pertidaksamaan Linear Satu Variabel</h3>
+	<p><font size="4">Sistem Pertidaksamaan linear merupakan suatu kalimat terbuka yang hanya mempunyai satu variabel dan berderajat satu. Pertidaksamaan Linear pada dasarnya menggunakan tanda (<,>,≤,≥) (Kelas, n.d.).</p>
+		<strong>Contoh :</strong>
+		<p>x > 9</p>
+		<p>3x – 3 < 8</p>
+		<p>3b > b + 6</p>
+		<p>5n – 3 < 3n + 2</p>
+		<p>Beberapa kalimat terbuka di atas menggunakan tanda hubung seperti (<,>,≤,≥), dimana menandakan kalimat tersebut merupakan  pertidaksamaan.</p>
+		<p>Bentuk umum dari PtLSV dalam variabel dapat dinyatakan seperti di bawah ini:</p>
+		<p>ax + b < 0,ax + b > 0,atau ax + b > 0,atau ax + b < 0</p>
+		<p>dengan a < 0, dan a,b ∈ Bilangan Real.</font></p>
+		<br>
+
+	<h3>2.2	Sistem Pertidaksamaan Linear Dua Variabel</h3>
+	<p><font size="4">Sebelumnya kalian telah belajar mengenai persamaan linear dua variabel. Perbedaan dari persamaan dan pertidaksamaan disini adalah tanda yang digunakan. Sistem Pertidaksamaan biasanya menggunakan tanda (<, >, ≤, ≥) . Prinsip yang digunakan untuk menentukan nilai variabel yang menenuhi sistem pertidaksamaan sama dengan prinsip pada sistem persamaan linear.</p>
+		<strong>Ciri-ciri SPtLDV:</strong>
+	<ul>
+		<li>Terdiri dari 2 variabel.</li>
+		<li>Kedua variabel pada SPLDV hanya memiliki derajat satu atau berpangkat satu.</li>
+		<li>Menggunakan relasi tanda (<, >, ≤, ≥).</li>
+	</ul>
+	<strong>Bentuk umum :</strong>
+	<p>ax + by + c < 0</p>
+	<p>ax + by + c ≤ 0</p>
+	<p>ax + by + c > 0</p>
+	<p>ax + by + c ≥ 0</p>
+	<p>dengan:</p>
+	<p>a, b : koefisien (a ≠ 0, b ≠ 0, a,b ∈ R)</p>
+	<p>c : konstanta (c ∈ R)</p>
+	<p>x, y : variabel (x, y ∈ R)</p>
+	<strong>Contoh :</strong>
+	<p>3x + 5y > 10 adalah (SPtLDV) karena menggunakan relasi “(<, >, ≤, ≥)”</p>
+	<p>2x – 5y = 2 adalah (Bukan SPtLDV) karena menggunakan relasi “=”</font></p>
+	<br>
+
+	<h3>2.3	Metode Penyelesaian Sistem Pertidaksamaan Linear Dua Variabel</h3>
+	<p><font size="4">Langkah-langkah untuk menyelesaikan pertidaksamaan linear :</p>
+	<ol>
+		<li>Nyatakan pertidaksamaan linear sebagai persamaan linear dalam bentuk ax + by = c (garis pembatas).</li>
+		<li>Tentukan titik potong garis ax + by = c dengan sumbu X dan sumbu Y.</li>
+		<li>Tarik garis lurus yang menghubungkan kedua titik potong tersebut. Jika pertidaksamaan dihubungkan dengan tanda ≥, atau ≤  garis dilukis tidak putusputus, sedangkan jika pertidaksamaan dihubungkan dengan tanda > atau <, garis dilukis putus putus.</li>
+		<li>Tentukan sembarang titik (x1,y1), masukkan ke pertidaksamaan. Jika pertidaksamaan bernilai benar, maka daerah tersebut merupakan daerah penyelesaiannya, sebaliknya jika pertidaksamaan bernilai salah, maka daerah tersebut bukan merupakan daerah penyelesaian.</li>
+		<li>Arsirlah daerah yang memenuhi, sehingga daerah himpunan penyelesaiannya adalah daerah yang diarsir, atau arsirlah daerah yang tidak memenuhi, sehingga daerah himpunan penyelesaiannya adalah daerah yang bersih (tidak diarsir).</li>
+	</ol>
+	<strong>Contoh Soal 1: </strong>
+<p></p>Tentukan himpunan penyelesaian pertidaksamaan linear : 3x + 2y = 12 !
+<p><strong>Penyelesaian :</strong></p>
+<p></p>Langkah (1) : Tentukan garis pembatas, yaitu : 3x + 2y = 12. 
+<p></p>Langkah (2) : Tentukan titik potong terhadap sumbu X dan sumbu Y.
+<p></p>Titik potong sumbu X adalah jika y = 0.
+ <p></p>sehingga diperoleh : 3x + 2(0) = 12
+    <p></p>3x + 0 = 12
+	     <p></p>3x = 12
+	     <p></p> x = 4
+<p></p>Jadi, titik potong terhadap sumbu X adalah (4, 0).
+ <p></p>Titik potong sumbu Y adalah jika x = 0.
+ <p></p>sehingga diperoleh : 3(0) + 2y = 12
+ <p></p>  0 + 2y = 12
+<p></p>	2y = 12
+<p></p>	 y = 6
+<p></p>Jadi, titik potong terhadap sumbu Y adalah (0, 6).
+<p></p>Langkah (3) : Hubungkan kedua titik potong tersebut dengan garis lurus.
+<p></p>Langkah (4) : Ambil sembarang titik, misalnya (0, 0), masukkan ke pertidaksamaan :
+<p></p>3(0) + 2(0) ≥ 12 (tidak memenuhi), berarti daerah tempat titik (0, 0) terletak bukan
+<p></p>merupakan daerah penyelesaian.
+<p></p>Langkah (5) : Arsirlah daerah yang memenuhi.
+<p><strong># Catatan: </strong></p>
+<ol>
+	<li>Tanda pertidaksamaan ≥ mengisyaratkan daerah penyelesaian berada di sebelah kanan atas garis.</li>
+	<li>Tanda pertidaksamaan ≤ mengisyaratkan daerah penyelesaian berada di sebelah kiri bawah garis.</li>
+</ol>
+<br>
+
+	<strong>Contoh Soal 2: </strong>
+<p></p>Dari pertidaksamaan 4x + 3y – 12 ≥ 0, tentukan daerah penyelesaiannya!
+<p><strong>Penyelesaian :</strong></p>
+<p></p>Pindahkan variabel ke ruas kiri dan konstanta di ruas kanan.
+<p></p>4x + 3y ≥ 12
+<p></p>Ubah tanda pertidaksamaan menjadi sama dengan.
+<p></p>4x + 3y = 12
+<p></p>Tentukan titik poinnya, kalau akan menggunakan sumbu-x berarti y=0, sebaliknya kalau menggunakan sumbu-y berarti x=0.
+<p><em>Table 2. Contoh Tabel Menentukan Titik Poin</em></p>
+<table border="1">
+	<tbody>
+		<tr>
+			<td>x</td>
+			<td>3</td>
+			<td>0</td>
+		</tr>
+
+		<tr>
+			<td>y</td>
+			<td>0</td>
+			<td>4</td>
+		</tr>
+	</tbody>
+</table>
+<p> Gambar titik potongnya.</p>
+<img src="/static/image/Screenshot (1042).png">
+<br>
+<em>Gambar 4. Grafik Penyelesaian Sistem Pertidaksamaan Linear Dua Variabel</em>
+<p>Sumber : Geogebra App</p>
+<p>Lakukan uji titik untuk mendapatkan daerah penyelesaiannya. Kita ambil titik yang berada di dalam garis (kiri garis), misalnya titik (2,0). Sekarang kita substitusi ke dalam persamaan 4x + 3y ≥ 12 menjadi 4(2) + 3(0) ≥ 12, hasilnya 8 ≥ 12. Kira-kira benar gak kalau 8 lebih besar sama dengan 12? Salah ya, berarti daerah penyelesaiannya ada di kanan garis atau di luar garis.</p>
+<img src="/static/image/Screenshot (1043).png">
+<br>
+<em>Gambar 5. Grafik Penyelesaian Sistem Pertidaksamaan Linear Dua Variabel</em>
+<p>Sumber : Geogebra App</p>
+<p>	Dari situ sudah paham ya, kalau hasil uji titiknya salah, berarti daerahnya ada di luar garis (kanan), sedangkan hasil uji titiknya benar, maka daerahnya ada di dalam garis (kiri). Lalu, apa sih perbedaan antara notasi ≥ dan > atau ≤ dan <? Letak perbedaannya ada pada garis. Untuk notasi yang ada sama dengannya (=) misal lebih besar sama dengan (≥) dan kurang dari sama dengan (≤), maka garisnya nyambung, tidak terputus seperti pada contoh penyelesaian daerah di atas. Sedangkan, untuk notasi lebih dari (>) dan kurang dari (<), garisnya putus-putus seperti ini :	</p>
+	<img src="/static/image/Screenshot (1044).png">
+	<br>
+	<em>Gambar 6. Grafik Penyelesaian Sistem Pertidaksamaan Linear Dua Variabel</em>
+	<p>Sumber : Geogebra App</font></p>
+	<br>
+	
+	<h3>2.4	Penerapan Sistem Pertidaksamaan Linear Dua Variabel dalam Kehidupan Sehari-hari </h3>
+	<p><font size="4">Pertidaksamaan linear dapat digunakan untuk memecahkan masalah dalam kehidupan sehari-hari. Hal ini dapat dilakukan dengan memodelkan masalah tersebut ke dalam model matematika. Sebagai contoh perhatikan permasalahan berikut ini.</p>
+	<center><img src="/static/image/slide13_3.jpg">
+	<br>
+	<br>
+	<em>Gambar 7. Toko Roti</em>
+	<p>Sumber : https://mmc.tirto.id/image/otf/1024x535/2017/10/04/slide13_3.jpg </p></center>
+
+	<p></p>Pak Budi adalah seorang pedagang roti. Beliau menjual roti menggunakan gerobak yang hanya dapat memuat 600 roti. Roti yang dijualnya adalah roti manis dan roti tawar dengan harga masing-masing adalah Rp 5.500,00 dan Rp 4.500,00 per bungkusnya. Dari penjualan roti ini, beliau memperoleh keuntungan Rp 500,00 dari sebungkus roti manis dan Rp 600,00 dari sebungkus roti tawar. Apabila modal yang dimiliki oleh Pak Budi adalah Rp 600.000, buatlah model matematika dengan tujuan untuk memperoleh keuntungan sebesar-besarnya!
+	
+	<p></p>Permasalah di atas dapat dimodelkan dalam bentuk matematika dengan menggunakan sistem pertidaksamaan linear dua variabel. Dengan memisalkan banyaknya roti manis dan roti tawar secara berturut-turut sebagai x dan y, maka diperoleh tabel sebagai berikut. 
+	<br>
+	<em>Table 3. Pemodelan Matematika Menggunakan Sistem Pertidaksamaan Linear Dua Variabel</em>
+	<table border="1">
+		<thead>
+		<tr>
+			<th>Jenis Roti</th>
+			<th>Kapasitas Gerobak</th>
+			<th>Modal</th>
+			<th>Keuntungan</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr>
+			<td>Roti Manis</td>
+			<td>x</td>
+			<td>5.500x</td>
+			<td>500x</td>
+		</tr>
+
+		<tr>
+			<td>Roti Tawar</td>
+			<td>y</td>
+			<td>4.500y</td>
+			<td>600y</td>
+		</tr>
+
+		<tr>
+			<td> </td>
+			<td>≤600</td>
+			<td>≤600.000</td>
+			<td> </td>
+		</tr>
+	</tbody>
+
+	</table>
+	<p></p>Sehingga apabila dituliskan dalam bentuk sistem pertidaksamaan akan menjadi seperti berikut ini.
+	<p></p>x + y ≤ 600,
+	<p></p>5.500x + 4.500y ≤ 600.000,
+	<p></p>Untuk x, y anggota bilangan cacah, x ≥ 0, y ≥ 0
+	<p></p>Dua pertidaksamaan yang terakhir (baris ketiga) menunjukkan syarat dari nilai x dan y. Karena x dan y secara berturut-turut menyatakan banyaknya roti, maka tidak mungkin nilai x dan y bernilai negatif.
+	<p></p>Perhatikan kolom keempat dari tabel di atas. Kolom keempat tersebut menyatakan fungsi yang akan ditentukan nilai maksimumnya (nilai optimum). Fungsi tersebut dapat dituliskan dalam persamaan matematika sebagai berikut.
+	f(x,y) = 500x + 600y
+	<p>Tujuan dari permasalahan ini adalah mencari nilai x dan y yang menjadi anggota himpunan penyelesaian dari sistem pertidaksamaan, serta membut fungsi f(x,y) = 500x + 600y bernilai optimum (maksimum).</font></p>
+	<br>
+
+	<h3>Ringkasan</h3>
+	<p><font size="4">Pertidaksamaan linear merupakan suatu kalimat terbuka yang hanya mempunyai satu variabel dan berderajat satu. Pertidaksamaan Linear pada dasarnya menggunakan tanda (<,>,≤,≥) (Kelas, n.d.). Mempunyai Bentuk Umum sebagai berikut :</p>
+	<p></p>ax + b < 0, ax + b > 0, atau ax + b > 0, atau ax + b < 0,dengan a < 0, a, b ∈ Bilangan Real.
+	<p></p>Sedangkan, Sistem Pertidaksamaan Linear Dua Variabel merupakan system yang terdiri dari 2 variabel, yang dimana kedua variabel pada SPtLDV hanya memiliki derajat satu atau berpangkat satu, dengan ditandai menggunakan relasi tanda (<,>,≤,≥). Mempunyai Bentuk Umum sebagai berikut :
+	<p>ax + by + c < 0;   ax + by + c ≤ 0; atau ax + by + c > 0;   ax + by + c ≥ 0, dengan a < 0, a, b ∈ Bilangan Real.</font></p>
+	<br>
+    <br>
+    <br>
+    
+</body>
+
+{% endblock %}

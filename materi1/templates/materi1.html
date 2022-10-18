@@ -1,0 +1,198 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+    <style>
+        body {
+            background-color: rgb(255, 255, 255);
+
+        }
+
+    </style>
+    <style>
+        body{
+            max-width: 1000px;
+            margin: auto;
+        }
+        p{
+            text-indent: 50px;
+        }
+    </style>
+    <body>
+		<br>
+        <br>
+        <br>
+        <br>
+        <h1 style="background-color: rgb(70, 195, 245);"><center>MATERI 1 (Sistem Persamaan Linear Dua Variabel)</center></h1>
+        <br>
+    <br>
+	<center><img src="/static/image/sistem-persamaan-linier-dua-variabel.jpg">
+	<br>
+	<br>
+	<em>Gambar 1. Cover Materi Sistem Persamaan Linear Dua Variabel</em>
+	<p>Sumber : https://www.pelajaran.co.id/wp-content/uploads/2017/01/sistem-persamaan-linier-dua-variabel.jpg</p></center>
+	<br>
+    <br>
+    <h3><p>Kata Kunci</p></h3>
+	<ul>
+		<li>Sistem Persamaan Linear Dua Variabel</li>
+		<li>Variabel</li>
+		<li>Penyelesaian</li>
+	</ul>
+	<br>
+
+	<h3><center>Peta Konsep</center></h3>
+    <br>
+	<center><img src="/static/image/Screenshot (1035).png"></center>
+	<br>
+       <br>
+       <br> 
+	<h3>1.1	Sistem Persamaan Linear Satu Variabel</h3>
+	<p><font size="4">Sistem Persamaan linear adalah suatu persmaan dengan satu variabel (satu peubah) yang memiliki pangkat bulat positif dan pangkat tertinggi variabelnya satu, dengan ditandai dengan menggunakan tanda “=” (Djadir et al., 2017).</p>  
+	<strong>Bentuk umum :</strong>
+		<p>ax + b = 0; (a,b ∈ bilangan real) (a,b ≠ 0)</p>
+		<p>Dalam menyelesaikan persamaan linear dapat dilakukan dengan memisahkan variabel dan konstanta dengan konstanta pada ruas yang berbeda.</p>
+	<strong>Contoh :</strong>
+	<p>3x = 1</p>
+	<p>22x – 1 = 0</p>
+	<p>4x + 9 = -11</font></p>
+	<br>
+
+	<h3>1.2	Sistem Persamaan Linear Dua Variabel</h3>
+	<p><font size="4">Sistem Persamaan Linear Dua Variabel adalah sebuah bentuk relasi sama dengan pada bentuk aljabar yang memiliki dua variabel dan keduanya berpangkat satu. Dikatakan Persamaan Linear karena pada bentuk persamaan ini jika digambarkan dalam bentuk grafik, maka akan terbentuk sebuah grafik garis lurus (linear) (Muawwana, 2015). </p>
+	<strong>Ciri-ciri SPLDV:</strong>
+	<ul>
+		<li>Terdiri dari 2 variabel.</li>
+		<li>Kedua variabel pada SPLDV hanya memiliki derajat satu atau berpangkat satu.</li>
+		<li>Menggunakan relasi tanda sama dengan (=).</li>
+		<li>Tidak terdapat perkalian variabel dalam setiap persamaannya.</li>
+	</ul>
+	<strong>Bentuk umum :</strong>
+		<p>Menurut Buku (Depdiknas, 2007), bentuk umum dari Sistem Persamaan Linear Dua Variabel (SPLDV) yaitu sebagai berikut :</p>
+		<p>ax + by + c = 0;  </p>  
+		<p>dengan a,b∶ koefisien (a ≠ 0,b ≠ 0,a,b ∈ R),  c∶ konstanta (c ∈ R), x,y∶ variabel (x,y ∈ R)</p>
+	<strong>Contoh :</strong>
+	<p>2x – 5y = 2 adalah (PLDV)</p>
+	<p>3x + 5y > 10 adalah (Bukan PLDV) karena menggunakan relasi “>”</font></p>
+	<br>
+
+	<h3>1.3	Metode Penyelesaian Sistem Persamaan Linear Dua Variabel</h3>
+	<h4>1.3.1	Metode Eliminasi</h4>
+	<p><font size="4">Eliminasi adalah dengan meghapus atau menghilangkan salah satu variabel dalam persamaan tersebut. Misal, variabel dalam persamaan adalah a dan b, nah untuk mencari nilai a, kita harus menghilangkan b terlebih dahulu, begitu juga sebaliknya.</p>
+	<strong>Contoh Soal :</strong>
+	<p>Tentukan nilai variabel x dan y dari persamaan berikut, dengan menggunakan metode eliminasi!</p>
+	<p>x + 2y = 20</p>
+	<p>2x + 3y = 33</p>
+	<strong>Penyelesaian :</strong>
+	<p>Pertama, kita cari nilai variabel x dengan cara menghilangkan y pada masing-masing persamaan.</p>
+	<p>x + 2y = 20</p>
+	<p>2x + 3y = 33</p>
+	<p>Koefisien pada variabel y dari masing-masing persamaan tersebut adalah 2 dan 3. Selanjutnya kita cari KPK (kelipatan persekutuan terkecil) dari 2 dan 3.</p>
+	<p>2 = 2, 4, 6, 8, …</p>
+	<p>3 = 3, 6, 8, …</p>
+	<p>Setelah tahu KPK dari 2 dan 3 adalah 6, kita bagi 6 dengan masing masing koefisien.</p>
+	<p>6 : 2 = 3 → x3</p>
+	<p>6 : 3 = 2 → x2</p>
+	<p>Kemudian, kalikan dan lakukan eliminasi dengan menggunakan hasil pembagian masing-masing tadi</p>
+	<img src="../Statik/Image/Screenshot (1038).png">
+	<p>Maka menghasilkan:</p>
+	<img src="../Statik/Image/Screenshot (1047).png">
+	<p>Sehingga dapat kita ketahui bahwa nilai x = 6. Untuk mencari variabel y, kita juga bisa menggunakan cara yang sama, hanya dibalik saja.</font></p>
+	<br>
+
+	<h4>1.3.2	Metode Substitusi</h4>
+	<p><font size="4">Substitusi merupakan salah satu cara menyelesaikan SPLDV dengan cara mengubah satu variabel dengan variabel dari persamaan lain.</p>
+	<p><strong>Contoh Soal:</strong></p>
+	<p></p>Tentukan nilai variabel x dan y dari kedua persamaan berikut, dengan menggunakan metode substitusi!
+	<p></p>2x + 4y = 28 
+	<p></p>3x + 2y = 22
+	<p><strong>Penyelesaian :</strong></p>
+	<p></p>Pertama, kita pilih salah satu persamaan yang akan dipindahkan elemennya. Misalnya kita pilih persamaan pertama yaitu
+	<p></p>2x + 4y = 28.
+	<p></p>Lalu kita pilih variabel y untuk kita pindahkan ke ruas kanan. Maka, persamaannya berubah jadi
+	<p></p>2x = 28 – 4y
+	<p></p>Karena kita memilih variabel y yang dipindah, maka koefisien pada variabel x dihilangkan dengan cara membagi masing-masing ruas dengan nilai koefisien x.
+	<br>
+	<img src="../Statik/Image/Screenshot (1048).png">
+	<br>
+	<p>Maka dihasilkan persamaan x = 14 – 2y sebagai bentuk solusi dari variabel x. Setelah itu, gabungkan persamaan 3x + 2y = 22 (yang tadi kita tidak pilih pada soal) dengan persamaan x = 14 – 2y dengan cara mengganti variabel x dengan persamaan</p>
+	<br>
+	<img src="../Statik/Image/Screenshot (1050).png">
+	<br>
+	<p></p>Maka, ditemukan variabel y adalah 5. 
+	<p></p>Setelah ditemukan variabel y = 5,sekarang kita cari x dengan memasukkan 5 sebagai variabel y.
+	<p></p>𝑥 = 14 – 2𝑦
+	<p></p>𝑥 = 14 – 2(5)
+	<p></p>𝑥 = 14 – 10
+	<p></p>𝑥 = 4.
+	<p></p>Maka ditemukan variabel x adalah 4.
+	<p>Sehingga jawaban dari soal SPLDV diatas adalah x = 4 dan y = 5.</font></p>
+
+	<br>
+
+	<h4>1.3.3	Metode Penyelesaian Masalah Dalam Bentuk Soal Cerita</h4>
+	<p><font size="4">Langkah- langkah menyelesaikan Masalah SPLDV  Dalam Bentuk soal cerita :</p>
+	<ol>
+		<li> Mengubah kalimat-kalimat pada soal cerita menjadi model matematika yang berkaitan dengan SPLDV. Dengan kata lain kita ubah kalimat-kalimat dalam soal cerita dalam bentuk persamaan yang mengandung satu atau dua variabel sehingga kita mempunyai beberapa persamaan linear dua variabel yang berhubungan. </li>
+		<li>Menentukan penyelesaikan SPLDV.</li>
+		<li>Menentukan solusi dari soal cerita yang diberikan.</li>
+	</ol>
+	<p><strong>Contoh Soal :</strong></p>
+	<p>Selisih uang Adik dan kakak Rp10.000,00. Dua kali uang kakak ditambah uang adik berjumlah Rp40.000,00. Jumlah uang mereka adalah...</p>
+	<p></p>(Soal Simulasi UNBK Matematika SMP 2019)
+	<p><strong>Penyelesaian : </strong></p>
+	<p></p>Kita misalkan uang adik adalah a dan uang kakak adalah k.
+	<p></p>Selisih uang Adik dan kakak Rp10.000,00 maka dapat tuliskan a−k=10.000.
+	<p></p>Dua kali uang kakak ditambah uang adik berjumlah Rp40.000,00 maka dapat kita tuliskan 2k+a=40.000.
+	<p></p>dari kedua persamaan di atas kita peroleh:
+	<br>
+	<img src="../Statik/Image/Screenshot (1052).png">
+	<br>
+	<p>Untuk k = 10.000 maka dapat kita peroleh:</p>
+	<br>
+	<img src="../Statik/Image/Screenshot (1053).png">
+	<br>
+	<p></p>Jumlah uang mereka adalah 20.000 + 10.000 = 30.000 
+	<p>∴ Jadi Jumlah uang meraka ada sebesar Rp. 30.000,-</font></p>
+
+	<br>
+
+	<h3>1.4	Penerapan Sistem Persamaan Linear Dua Variabel dalam Kehidupan Sehari-hari</h3>
+	<p><font size="4">Permasalah Sistem Persamaan Linear Dua Variabel sering kita jumpai dalam kehidupan sehari-hari seperti biasanya mengenai angka dan bilangan, umur, uang, investasi dan bisnis, ukuran, sembako, gerakan dan lain sebagainya. Untuk menyelesaikan permasalahan sehari-hari yang memerlukan penggunaan matematika, maka langkah pertama yang harus dilakukan adalah menyusun model matematika dari masalah tersebut. Data yang terdapat dalam permasalahan itu diterjemahkan ke dalam satu atau beberapa Sistem Persamaan Linear Dua Variabel. Selanjutnya penyelesaian dari Sistem Persamaan Linear Dua Variabel digunakan untuk memecahkan permasalahan tersebut. </p>
+	
+	<p><strong>Contoh soal :</strong></p> 
+	<br>
+	<img src="/static/image/Screenshot (1055).png">
+	<br>
+	<em>Gambar 2. Ayah dan Anak Laki-laki</em>
+	<p>Sumber : https://media.istockphoto.com/illustrations/cartoon-father-and-son-man-and-boy-happy-family-happy-father-s-day-illustration-id952356484</p>
+	 <p></p>Dua tahun yang lalu seorang laki-laki umurnya 6 kali umur anaknya. 18 tahun kemudian umurnya akan menjadi dua kali umur anaknya. Carilah umur mereka sekarang!
+	<p><strong>Penyelesaian :</strong></p>
+	<p></p>Misalkan umur ayah sekarang x tahun dan umur anaknya y tahun, maka
+	<p></p>x – 2 = 6 (y – 2)
+	<p></p>x – 6y = -10………… (1)
+	<p></p>x + 18 = 2 (y + 18)
+	<p></p>x – 2y = 18 ………… (2)
+	<p></p>Eliminasi (1) dan (2) diperoleh
+	<br>
+	<img src="../Statik/Image/Screenshot (1054).png">
+	<br>
+	<p></p>Subtitusi nilai y = 7 ke dalam persaman x – 2y = 18, maka diperoleh
+	<p></p>x – 2(7) = 18
+	<p></p>x – 14 =18
+	<p></p>x = 32
+	<p>jadi, sekarang umur ayah 32 tahun dan anaknya berumur 7 tahun.</font></p>
+
+	<br>
+
+	<h3>Ringkasan</h3>
+	<p><font size="4">Sistem Persamaan linear adalah suatu sistem persmaan dengan satu variabel (satu peubah) yang memiliki pangkat bulat positif dan pangkat tertinggi variabelnya satu, dengan ditandai dengan menggunakan tanda “=” (Djadir et al., 2017). Bentuk umum dinyatakan dengan ax + b = 0 ; di mana a, b ≠ 0;  a, b ∈ bilangan real.</p>
+	<p>Sedangkan, Sistem Persamaan Linear Dua Variabel merupakan system yang terdiri dari 2 variabel, dimana kedua variabel pada SPLDV hanya memiliki derajat satu atau berpangkat satu, ditandai dengan menggunakan relasi tanda sama dengan (=). Bentuk umum dinyatakan dengan ax + by + c = 0 di mana a, b ≠ 0;  a, b ∈ bilangan real.</p>
+	<p>Metode yang dilakukan untuk menyelesaikan permasalahan Sistem Persamaan Linear Dua Variabel yaitu Metode Eliminasi dan Metode Substitusi. Kemudian, Permasalah Sistem Persamaan Linear Dua Variabel sering kita jumpai dalam kehidupan sehari-hari seperti biasanya mengenai angka dan bilangan, umur, uang, investasi dan bisnis, ukuran, sembako, gerakan dan lain sebagainya.</font></p>
+	<br>
+    <br>
+	
+</body>
+
+{% endblock %}
